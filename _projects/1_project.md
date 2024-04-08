@@ -1,31 +1,25 @@
 ---
 layout: page
-title: Video Recognition for Intelligent Field Insights: Heavy Equipment Monitoring with AI for a Top 5 Construction Firm in Asia Pacific
-description: Reflective AI developed technology to visualize and measure heavy equipment activity in civil construction projects from high definition video camera feeds installed on-site with a Top 30 ENR client. 
-img: assets/img/12.jpg
-importance: 1
+title: Heavy Equipment Monitoring with AI for Leading Construction Company 
+description: Reflective AI technology to measure heavy equipment activity in civil construction projects from HD video feeds for Top 30 ENR client.
+img: assets/img/3.jpg
+importance: 2
 category: work
-related_publications: true
+giscus_comments: true
 ---
 
-Project Overview
-In a significant leap towards enhancing efficiency in civil construction projects, our team at Reflective AI embarked on a mission to revolutionize the way heavy equipment, specifically dump trucks, are monitored and managed. Working with one of the largest construction companies in the Asia Pacific region, our goal was to leverage advanced AI-driven video recognition technology to gain real-time, actionable insights into dump truck operations, thereby addressing critical operational bottlenecks and enhancing overall project efficiency.
-The Technology
-Our approach harnessed the power of cutting-edge computer vision AI to develop a sophisticated monitoring solution that could seamlessly integrate with existing on-site camera systems. This initiative aimed to provide a comprehensive view of dump truck activities without necessitating significant hardware investments, thus offering a cost-effective and highly scalable solution.
-Key Technical Highlights:
-Advanced Object Recognition: Employed special techniques for recognizing dump trucks from a distance, despite their relatively small size in video frames, by developing custom algorithms tailored for small object detection.
-Challenging Environment Adaptability: Engineered to withstand harsh construction conditions, such as dust, smoke, fog, and various lighting challenges including low light and glare, ensuring reliable performance under all circumstances.
-Complex Activity Recognition: Utilized advanced activity recognition algorithms to differentiate between critical dump truck states such as loading, unloading, and idling, facilitating precise monitoring and analysis of operational efficiency.
-Integration and Scalability: Designed for seamless compatibility with existing camera infrastructure on construction sites, eliminating the need for additional hardware installations and ensuring easy scalability across multiple projects.
-AI-Driven Enhancements: Leveraged synthetic data and data augmentation techniques, including Generative Adversarial Learning and curriculum learning, to simulate construction environments and improve the system's accuracy and reliability.
-Business Impact
-The deployment of our AI monitoring solution on the construction sites managed by the client has yielded substantial improvements in operational efficiency and resource allocation. By offering real-time visibility into the activities of dump trucks, our technology has facilitated more effective scheduling, reduced idle times, and enabled better resource management, leading to significant cost savings and enhanced productivity.
-Project Achievements:
-Enhanced Efficiency: Achieved improved scheduling and utilization of dump trucks, significantly reducing operational costs and enhancing project timelines.
-Data-Driven Decision Making: Provided invaluable insights into dump truck operations, empowering the client to make informed decisions that influence future project management strategies.
-Scalable and Versatile Solution: Demonstrated the adaptability and scalability of our AI technology, underscoring its potential for broader applications within the construction industry and beyond.
-This report encapsulates our achievements in the the client project, illustrating our commitment to technological innovation and its tangible benefits in real-world applications. It showcases our pivotal role in advancing construction site operations through AI and sets the stage for future projects poised to transform the industry.
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
 
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -50,8 +44,8 @@ This report encapsulates our achievements in the the client project, illustratin
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
