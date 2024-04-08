@@ -1,7 +1,8 @@
 ---
 layout: page
 title: project 1
-description: a project with a background image
+description: a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project.  a project with a background image is an amazing project. 
+
 img: assets/img/12.jpg
 importance: 1
 category: work
