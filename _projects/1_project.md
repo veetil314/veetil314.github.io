@@ -5,7 +5,7 @@ description: Reflective AI technology to measure heavy equipment activity in civ
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 <h2>Project Overview</h2>
@@ -24,14 +24,32 @@ We developed technology to intelligently recognize the fine-grained activity of 
 An easy-to-use UI generates a smart video summary that highlights key activities like dump truck activity.  Heatmaps are created to show areas of high activity over a day or fixed period of time , and metrics reveal the percentage of idle time, detailed equipment activity and the spatial distribution of activity.
 </p>
 
+
+- **Title 1  
+with a line break**: Description 1  
+also with a line break
+- **Title 2**: Description 2  
+with a line break
+- **Title 3  
+with multiple  
+line breaks**: Description 3
+
 <h2>Key Technology Highlights</h2>
-    <ul>
-        <li><strong>Advanced Object Recognition:</strong> We employed special techniques to recognize equipment from a distance, despite their relatively small size in video frames, by developing custom algorithms for small object detection.</li>
-        <li><strong>Challenging Environment Adaptability:</strong> Our solution is engineered to withstand harsh construction conditions, such as dust, smoke, fog, and various lighting challenges, including low light and glare, ensuring reliable performance under all conditions.</li>
-        <li><strong>Complex Activity Recognition:</strong> Advanced algorithms differentiate between fine-grained heavy equipment operations, such as an excavator performing excavation vs moving to/from the worksite, and dump truck operations like loading, unloading, and idling.</li>
-        <li><strong>Integration and Scalability:</strong> Designed for seamless compatibility with existing camera infrastructure on construction sites, our solution eliminates the need for additional hardware installations and is easily scalable across multiple projects.</li>
-        <li><strong>AI-Driven Enhancements:</strong> We leveraged synthetic data and data augmentation techniques, including Generative Adversarial Learning and curriculum learning, to simulate construction environments and enhance system accuracy and reliability.</li>
-    </ul>
+    
+        - **Advanced Object Recognition**: 
+        We employed special techniques to recognize equipment from a distance, despite their relatively small size in video frames, by developing custom algorithms for small object detection.
+
+        - **Challenging Environment Adaptability**: 
+        Our solution is engineered to withstand harsh construction conditions, such as dust, smoke, fog, and various lighting challenges, including low light and glare, ensuring reliable performance under all conditions.
+
+        - **Complex Activity Recognition**: 
+        Advanced algorithms differentiate between fine-grained heavy equipment operations, such as an excavator performing excavation vs moving to/from the worksite, and dump truck operations like loading, unloading, and idling.
+
+        - **Integration and Scalability**: 
+        Designed for seamless compatibility with existing camera infrastructure on construction sites, our solution eliminates the need for additional hardware installations and is easily scalable across multiple projects.
+
+        - **AI-Driven Enhancements**: 
+        We leveraged synthetic data and data augmentation techniques, including Generative Adversarial Learning and curriculum learning, to simulate construction environments and enhance system accuracy and reliability.
 
 
   <h2>Model Development and Testing</h2>
