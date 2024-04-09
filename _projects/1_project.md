@@ -25,7 +25,6 @@ An easy-to-use UI generates a smart video summary that highlights key activities
 </p>
 
 
-
 <h2>Key Technology Highlights</h2>
     
         - **Advanced Object Recognition**: 
@@ -44,33 +43,52 @@ An easy-to-use UI generates a smart video summary that highlights key activities
         We leveraged synthetic data and data augmentation techniques, including Generative Adversarial Learning and curriculum learning, to simulate construction environments and enhance system accuracy and reliability.
 
 
-  <h2>Model Development and Testing</h2>
-    <h3>Data Collection</h3>
-    <p>Limited video data was provided by the client for training, which we supplemented with data extracted from various public sources. Our team curated and extracted web video data, facing the challenge that publicly available construction datasets were often very noisy. Many videos, shot using cell phones at close range, were shaky, necessitating extensive cleanup, careful filtering, and annotation.</p>
-    <h3>Data Annotation</h3>
-    <p>We recruited an in-house team of annotators for this project. Developing clear guidelines for the team proved challenging, necessitating an iterative process that included an evaluation phase. During this phase, we continuously refined the guidelines. Annotators were only approved for production annotation after achieving satisfactory accuracy levels in the evaluation phase.</p>
-    <p>Annotation requirements were extensive. The work encompassed various models, including equipment detection, classification, and activity recognition. The diversity of data was also critical. Data was categorized based on various sources to ensure diversity at every level. For instance, stock videos are generally cleaner, whereas YouTube videos are noisier. Longer videos were not overrepresented to avoid repetitive occurrences of similar images within the dataset.</p>
-    <p>Various annotation tools were used, such as CVAT and Labelbox.</p>
-    <h3>Active Learning</h3>
-    <p>Active learning strategies were employed to minimize annotation requirements. Models would automatically annotate samples, and only corrections made by annotators were required. This greatly improved annotation speed.</p>
-    <h3>Image Augmentation</h3>
-    <p>To address the need to handle various technical challenges, including clutter, occlusion, diverse lighting & camera angles, and diversity of equipment, extensive data augmentation was performed. Additionally, synthetic data was generated using Generative Adversarial Networks (GANs), contributing to the robustness of the model.</p>
-    <h3>Model Development</h3>
-    <p>Various algorithms, models, and frameworks were tested, including a modified Faster R-CNN approach for object detection. The original model was not well-suited for recognizing small objects, so it was tailored to this specific use case.</p>
-    <h3>Activity Recognition</h3>
-    <p>Various algorithms for deep activity recognition were tested to accurately identify and classify different construction site activities.</p>
-    <h3>Tracking</h3>
-    <p>Kalman filtering was employed to track individual equipment through the site. Re-identification was a challenge that was overcome using Kalman filtering and visual similarity using DNN features.</p>
-    <h2>Business Impact</h2>
-    <p>The deployment of our AI monitoring solution at client construction sites significantly improved operational efficiency and resource allocation. By offering real-time visibility into dump truck activities, our technology facilitated more effective scheduling, reduced idle times, and enabled better resource management, resulting in notable cost savings and enhanced productivity.</p>
-    <h3>Project Achievements</h3>
-    <ul>
-        <li><strong>Enhanced Efficiency:</strong> Improved scheduling and utilization of dump trucks, significantly reducing operational costs and enhancing project timelines.</li>
-        <li><strong>Data-Driven Decision Making:</strong> Provided invaluable insights into dump truck operations, empowering the client with information to influence future project management strategies.</li>
-        <li><strong>Scalable and Versatile Solution:</strong> Demonstrated the adaptability and scalability of our AI technology, highlighting its potential for broader applications within the construction industry and beyond.</li>
-        <li><strong>Metrics for Productivity:</strong> Enabled the measurement of equipment/labor activity and correlated with progress metrics from other sources such as drone data, facilitating smart estimation and bidding.</li>
-    </ul>
-    <p>This report encapsulates our achievements in this client project, demonstrating our commitment to technological innovation and its tangible benefits in real-world applications. It highlights our role in advancing construction site operations through AI, setting the stage for future projects poised to transform the industry.</p>
+## Model Development and Testing
+
+### Data Collection
+
+Limited video data was provided by the client for training, which we supplemented with data extracted from various public sources. Our team curated and extracted web video data, facing the challenge that publicly available construction datasets were often very noisy. Many videos, shot using cell phones at close range, were shaky, necessitating extensive cleanup, careful filtering, and annotation.
+
+### Data Annotation
+
+We recruited an in-house team of annotators for this project. Developing clear guidelines for the team proved challenging, necessitating an iterative process that included an evaluation phase. During this phase, we continuously refined the guidelines. Annotators were only approved for production annotation after achieving satisfactory accuracy levels in the evaluation phase.
+
+Annotation requirements were extensive. The work encompassed various models, including equipment detection, classification, and activity recognition. The diversity of data was also critical. Data was categorized based on various sources to ensure diversity at every level. For instance, stock videos are generally cleaner, whereas YouTube videos are noisier. Longer videos were not overrepresented to avoid repetitive occurrences of similar images within the dataset.
+
+Various annotation tools were used, such as CVAT and Labelbox.
+
+### Active Learning
+
+Active learning strategies were employed to minimize annotation requirements. Models would automatically annotate samples, and only corrections made by annotators were required. This greatly improved annotation speed.
+
+### Image Augmentation
+
+To address the need to handle various technical challenges, including clutter, occlusion, diverse lighting & camera angles, and diversity of equipment, extensive data augmentation was performed. Additionally, synthetic data was generated using Generative Adversarial Networks (GANs), contributing to the robustness of the model.
+
+### Model Development
+
+Various algorithms, models, and frameworks were tested, including a modified Faster R-CNN approach for object detection. The original model was not well-suited for recognizing small objects, so it was tailored to this specific use case.
+
+### Activity Recognition
+
+Various algorithms for deep activity recognition were tested to accurately identify and classify different construction site activities.
+
+### Tracking
+
+Kalman filtering was employed to track individual equipment through the site. Re-identification was a challenge that was overcome using Kalman filtering and visual similarity using DNN features.
+
+## Business Impact
+
+The deployment of our AI monitoring solution at client construction sites significantly improved operational efficiency and resource allocation. By offering real-time visibility into dump truck activities, our technology facilitated more effective scheduling, reduced idle times, and enabled better resource management, resulting in notable cost savings and enhanced productivity.
+
+### Project Achievements
+
+- **Enhanced Efficiency:** Improved scheduling and utilization of dump trucks, significantly reducing operational costs and enhancing project timelines.
+- **Data-Driven Decision Making:** Provided invaluable insights into dump truck operations, empowering the client with information to influence future project management strategies.
+- **Scalable and Versatile Solution:** Demonstrated the adaptability and scalability of our AI technology, highlighting its potential for broader applications within the construction industry and beyond.
+- **Metrics for Productivity:** Enabled the measurement of equipment/labor activity and correlated with progress metrics from other sources such as drone data, facilitating smart estimation and bidding.
+
+This report encapsulates our achievements in this client project, demonstrating our commitment to technological innovation and its tangible benefits in real-world applications. It highlights our role in advancing construction site operations through AI, setting the stage for future projects poised to transform the industry.
 
 
 
