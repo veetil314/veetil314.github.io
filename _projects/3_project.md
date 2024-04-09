@@ -1,81 +1,51 @@
 ---
 layout: page
-title: Solutionfor Covid-19 Physical Distancing & PPE Monitoring with Computer Vision
-description: Reflective AI technology helps understand physical distancing violations and PPE violations for Safety Compliance 
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: COVID-19 Safety Compliance Platform
+description: Reflective AI's cutting-edge construction safety compliance platform designed to monitor COVID-19 risk and ensure safety compliance on construction sites.
+img: assets/img/projects/covid-safety-platform.jpg
+importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Project Report: Reflective AI's COVID-19 Safety Compliance Platform
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Executive Summary
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Reflective AI has developed a cutting-edge construction safety compliance platform designed to monitor COVID-19 risk and ensure safety compliance on construction sites. Leveraging advanced video recognition technology, this platform provides real-time surveillance of workers, ensuring adherence to health and safety protocols. The solution's primary focus is on mitigating physical distancing violations and ensuring the proper use of face masks, thereby safeguarding worker health and facilitating regulatory compliance. This innovative approach not only helps in maintaining on-site safety but also provides a robust documentation framework for regulatory adherence and protection against potential liability claims.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Introduction
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The emergence of COVID-19 has necessitated the implementation of stringent safety measures across various sectors, particularly in construction, to prevent the spread of the virus among workers. Reflective AI's platform addresses this urgent need by integrating "Deep Activity Recognition" technology to monitor and enforce safety protocols in real-time. This solution is a testament to Reflective AI's commitment to leveraging technology for enhancing workplace safety and regulatory compliance.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Project Description
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Overview
 
-{% raw %}
+Reflective AI's COVID-19 Safety Compliance Platform is a sophisticated solution designed for the real-time monitoring of construction sites to ensure adherence to COVID-19 safety guidelines. By processing video feeds from the site, the platform employs AI-based video recognition to monitor worker behavior and site conditions, focusing on physical distancing and the proper use of personal protective equipment (PPE).
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### Key Features
 
-{% endraw %}
+- **Monitoring and Alerts**: Continuous surveillance for compliance with physical distancing and PPE usage, providing live dashboard updates and mobile alerts for threshold breaches.
+- **Hotspots Identification**: Detection of high-risk areas within sites for proactive management.
+- **Visualization and Training**: Use of AI-curated video clips for incident visualization and contextual worker training.
+- **Camera Flexibility**: Compatibility with existing camera networks and provision for new installations through partnerships.
+- **Connectivity Solutions**: Adaptability to various network conditions, including provision for 4G connectivity in remote areas.
+
+### Benefits
+
+- **Enhanced Worker Safety**: By enforcing safety protocols effectively, the platform plays a crucial role in reducing the risk of COVID-19 transmission among workers.
+- **Regulatory Compliance**: Helps in avoiding penalties and potential site shutdowns by providing evidence of safety protocol adherence.
+- **Liability Protection**: Offers documented proof of compliance to mitigate liability claims, especially critical in regions with stringent regulations like California.
+
+### Partnerships and Technologies
+
+Reflective AI has established partnerships with entities such as Sify eLearning for digital industrial training and with leading construction camera providers to enhance the platform's capabilities. The technology is grounded in deep learning algorithms for accurate detection of compliance violations and is designed to respect worker privacy through anonymization features.
+
+## Implementation and Impact
+
+The COVID-19 Safety Compliance Platform has been instrumental in promoting a culture of safety and accountability across construction sites. It allows stakeholders, including site managers and remote management teams, to stay informed about site safety conditions in real-time, thereby fostering a proactive approach to hazard management. The platform's flexibility in terms of camera infrastructure and connectivity ensures its applicability across various site conditions, enhancing its usability and effectiveness.
+
+## Conclusion
+
+Reflective AI's COVID-19 Safety Compliance Platform represents a significant advancement in leveraging AI for workplace safety and regulatory compliance. As the construction industry navigates the challenges posed by the pandemic, this solution offers a scalable, effective means to ensure the health and safety of workers while maintaining operational continuity. Reflective AI's vision extends beyond the immediate crisis, aiming to provide a comprehensive suite of tools for monitoring and improving workplace safety across various sectors.
+
