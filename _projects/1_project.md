@@ -24,23 +24,13 @@ We developed technology to intelligently recognize the fine-grained activity of 
 An easy-to-use UI generates a smart video summary that highlights key activities like dump truck activity.  Heatmaps are created to show areas of high activity over a day or fixed period of time , and metrics reveal the percentage of idle time, detailed equipment activity and the spatial distribution of activity.
 </p>
 
+## Key Technology Highlights
 
-<h2>Key Technology Highlights</h2>
-    
-        - **Advanced Object Recognition**: 
-        We employed special techniques to recognize equipment from a distance, despite their relatively small size in video frames, by developing custom algorithms for small object detection.
-
-        - **Challenging Environment Adaptability**: 
-        Our solution is engineered to withstand harsh construction conditions, such as dust, smoke, fog, and various lighting challenges, including low light and glare, ensuring reliable performance under all conditions.
-
-        - **Complex Activity Recognition**: 
-        Advanced algorithms differentiate between fine-grained heavy equipment operations, such as an excavator performing excavation vs moving to/from the worksite, and dump truck operations like loading, unloading, and idling.
-
-        - **Integration and Scalability**: 
-        Designed for seamless compatibility with existing camera infrastructure on construction sites, our solution eliminates the need for additional hardware installations and is easily scalable across multiple projects.
-
-        - **AI-Driven Enhancements**: 
-        We leveraged synthetic data and data augmentation techniques, including Generative Adversarial Learning and curriculum learning, to simulate construction environments and enhance system accuracy and reliability.
+- **Advanced Object Recognition**: We employed special techniques to recognize equipment from a distance, despite their relatively small size in video frames, by developing custom algorithms for small object detection.
+- **Challenging Environment Adaptability**: Our solution is engineered to withstand harsh construction conditions, such as dust, smoke, fog, and various lighting challenges, including low light and glare, ensuring reliable performance under all conditions.
+- **Complex Activity Recognition**: Advanced algorithms differentiate between fine-grained heavy equipment operations, such as an excavator performing excavation vs moving to/from the worksite, and dump truck operations like loading, unloading, and idling.
+- **Integration and Scalability**: Designed for seamless compatibility with existing camera infrastructure on construction sites, our solution eliminates the need for additional hardware installations and is easily scalable across multiple projects.
+- **AI-Driven Enhancements**: We leveraged synthetic data and data augmentation techniques, including Generative Adversarial Learning and curriculum learning, to simulate construction environments and enhance system accuracy and reliability.
 
 
 ## Model Development and Testing
