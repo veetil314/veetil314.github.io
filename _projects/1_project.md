@@ -44,7 +44,7 @@ An easy-to-use UI generates a smart video summary that highlights key activities
   </div>
   <div class="col-sm mt-3 mt-md-0">
     <video class="img-fluid rounded z-depth-1" controls>
-      <source src="assets/img/video2.mp4" type="video/mp4">
+      <source src="assets/img/youtube2.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
