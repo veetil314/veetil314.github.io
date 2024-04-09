@@ -25,14 +25,6 @@ An easy-to-use UI generates a smart video summary that highlights key activities
 </p>
 
 
-- **Title 1  
-with a line break**: Description 1  
-also with a line break
-- **Title 2**: Description 2  
-with a line break
-- **Title 3  
-with multiple  
-line breaks**: Description 3
 
 <h2>Key Technology Highlights</h2>
     
