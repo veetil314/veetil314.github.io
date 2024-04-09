@@ -1,80 +1,46 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: work
+title: Bridging the Gap Between Image Content and Product Intelligence
+description: DeepView.ai's Fashion Search Technology
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Bridging the Gap Between Image Content and Product Intelligence: DeepView.ai's Fashion Search Technology
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Executive Summary
+DeepView.ai has developed a cutting-edge fashion search technology that addresses the disconnect between image content and product intelligence in the e-commerce industry. By leveraging advanced deep learning image recognition, DeepView.ai enables retailers to enhance product discovery on websites, apps, and social media platforms. This innovative solution has proven to increase conversions by up to 15% within just three weeks of deployment.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Introduction
+Search technology has made significant advancements, with users expecting near-perfect results. However, the e-commerce industry still faces challenges in providing relevant and comprehensive search results, particularly in the fashion domain. Retailers struggle to accurately annotate products with relevant keywords, leading to user frustration and suboptimal search experiences.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## The Problem
+Fashion shoppers often have a specific look or style in mind when searching online. They translate this desired look into words and attempt to find relevant products on retail websites. However, two key challenges arise:
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+1. Translating the desired look into appropriate search terms can be difficult, as many patterns and styles lack clear names.
+2. Products must be properly annotated with the words used by the user to appear in search results. Inaccurate or incomplete annotations lead to irrelevant or scarce search results.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## DeepView.ai's Solution
+DeepView.ai addresses these challenges by leveraging advanced deep learning image recognition. The AI-powered solution enables retailers to:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+1. **Index products with automatic, image-based SMART METADATA**: DeepView.ai's technology reduces the effort required for manual tagging by 80% and improves search results for underserved queries by 5x.
 
-{% raw %}
+2. **Increase click-through rates on recommended products**: Visual image search enhances product recommendations, leading to higher click-through rates, even for out-of-stock products.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+3. **Make user-generated and social media images automatically shoppable**: By matching user-generated content (UGC) and social media images with similar products in the online store, DeepView.ai enables retailers to capitalize on the power of visual content.
 
-{% endraw %}
+4. **Generate automatic hashtags for social media images and improve SEO**: DeepView.ai's technology automatically generates relevant hashtags for social media images, enhancing discoverability and improving search engine optimization (SEO).
+
+## Differentiating Factors
+DeepView.ai's solution stands out from competitors in two key aspects:
+
+1. **Natural image compatibility**: The technology works seamlessly with natural images, social media content, and UGC, unlike most image recognition APIs that struggle with noisy or non-professional images.
+
+2. **Product-specific feature generation**: DeepView.ai's system generates product-specific features based on images, rather than generic tags that are irrelevant for search purposes.
+
+## Demos
+To showcase the capabilities of DeepView.ai's fashion search technology, we invite you to watch the following demo videos:
+
+- [Demo 1](https://www.youtube.com/watch?v=P2nkm4QQ4OM)
+- [Demo 2](https://www.youtube.com/watch?v=q4-2MX2ijJE)
+
+## Conclusion
+DeepView.ai's fashion search technology revolutionizes the e-commerce industry by bridging the gap between image content and product intelligence. By leveraging advanced deep learning image recognition, retailers can significantly enhance product discovery, increase conversions, and improve the overall user experience. With a proven track record of delivering results within a short timeframe, DeepView.ai is poised to transform the way consumers shop for fashion online.
