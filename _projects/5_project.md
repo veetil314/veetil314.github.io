@@ -2,7 +2,11 @@
 layout: page
 title: Bridging the Gap Between Image Content and Product Intelligence
 description: DeepView.ai's Fashion Search Technology
+img:
+importance: 4
+category: work
 ---
+
 
 # Bridging the Gap Between Image Content and Product Intelligence: DeepView.ai's Fashion Search Technology
 
