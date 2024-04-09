@@ -5,7 +5,7 @@ description: We leveraged AI-driven video analytics to digitize manual operation
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 The majority of operations in construction remain undigitized, leading to significant gaps in data analysis and understanding. Traditional manual data collection methods are not only costly and inefficient but also produce incomplete and biased data. Additionally, IoT sensors, while useful, offer limited cognitive understanding and can measure only specific parameters such as location and temperature, failing to capture the complexity of real-world tasks and manual operations. This limitation hinders the visualization and in-depth analysis of construction activities, as these sensors require extensive deployment and complex integration across numerous endpoints.
