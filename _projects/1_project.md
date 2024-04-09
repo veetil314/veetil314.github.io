@@ -18,13 +18,40 @@ The initial digitization focus was on earthwork operations, with plans to expand
 </p>
 
 <h2>Solution</h2>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hotspot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Heatmap of Worker Activity on Construction Site
+</div>
+
 <p>
 We developed technology to intelligently recognize the fine-grained activity of heavy equipment, such as whether it's loaded/unloaded, counting the number of dumps, and distinguishing between moving and idle states. This approach offers a detailed overview of material movement, utilization, and productivity without requiring complex infrastructure. A few cameras covering the work area, necessary for security and monitoring, are used.
 
 An easy-to-use UI generates a smart video summary that highlights key activities like dump truck activity.  Heatmaps are created to show areas of high activity over a day or fixed period of time , and metrics reveal the percentage of idle time, detailed equipment activity and the spatial distribution of activity.
 </p>
 
+
+
 ## Key Technology Highlights
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <video class="img-fluid rounded z-depth-1" controls>
+      <source src="assets/img/video2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
 
 - **Advanced Object Recognition**: We employed special techniques to recognize equipment from a distance, despite their relatively small size in video frames, by developing custom algorithms for small object detection.
 - **Challenging Environment Adaptability**: Our solution is engineered to withstand harsh construction conditions, such as dust, smoke, fog, and various lighting challenges, including low light and glare, ensuring reliable performance under all conditions.
