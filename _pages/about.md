@@ -19,4 +19,3 @@ I am Vineeth. I'm an AI expert, author and speaker. I have extensive experience 
 
 
 https://www.linkedin.com/in/vineeth-veetil-8a08995/
-https://scholar.google.com/citations?hl=en&user=CE95VCIAAAAJ
