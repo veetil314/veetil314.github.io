@@ -3,7 +3,7 @@ layout: page
 title: COVID-19 Safety Compliance Platform
 description: Reflective AI's cutting-edge construction safety compliance platform designed to monitor COVID-19 risk and ensure safety compliance on construction sites.
 img: assets/img/site-violations.jpg
-importance: 3
+importance: 4
 category: work
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Heavy Equipment Monitoring with AI for Top 5 Construction Firm in Asia Pacific 
 description: Reflective AI technology to measure heavy equipment activity in civil construction projects from HD video feeds for client.
 img: assets/img/earthwork.jpg
-importance: 1
+importance: 2
 category: work
 giscus_comments: false
 ---

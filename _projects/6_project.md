@@ -12,7 +12,7 @@ category: work
 This project aims to design and implement Large Language Models from scratch using PyTorch, starting with GPT-2. The primary objective is to explore different architecture and techniques for optimizing performance, and study scaling properties. 
 
 
-Due to the high cost of GPU resources on popular cloud platforms like Google Cloud and AWS, the training will be conducted using VAST.ai, a more cost-effective alternative, on 8 NVIDIA A100 GPUs, well suited for open source projects that don’t involve proprietary data. 
+Due to the high cost of GPU resources on popular cloud platforms like Google Cloud and AWS, the training will be conducted using VAST.ai, a more cost-effective alternative, on 8 NVIDIA A100 GPUs, well suited for open source projects that don’t involve proprietary data.
 
 
 ## Research Objectives

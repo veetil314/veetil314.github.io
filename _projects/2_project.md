@@ -3,7 +3,7 @@ layout: page
 title: Transforming Operations through Advanced Video Analytics
 description: We leveraged AI-driven video analytics to digitize manual operations and enhance efficiency.
 img: assets/img/hotspot.jpg
-importance: 2
+importance: 3
 category: work
 giscus_comments: false
 ---

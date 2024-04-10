@@ -3,7 +3,7 @@ layout: page
 title: Estimating Ground Distances and Heights using Projective Geometry in Monocular Camera Images
 description: Estimating ground distances and heights from monocular camera images using projective geometry principles, including homography, vanishing points, and cross-ratio, without explicit camera calibration.
 img: assets/img/vanish3.jpg
-importance: 3
+importance: 6
 category: work
 ---
 
