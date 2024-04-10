@@ -2,7 +2,7 @@
 layout: page
 title: Bridging the Gap Between Image Content and Product Intelligence
 description: DeepView.ai's Fashion Search Technology. DeepView.ai has developed a cutting-edge fashion search technology that addresses the disconnect between image content and product intelligence in the e-commerce industry ..
-img:
+img: assets/img/fash-search-1.jpg
 importance: 4
 category: work
 ---
@@ -88,6 +88,18 @@ To address the need to handle various technical challenges, including clutter, o
 By jointly training classifiers for these attributes and the triplet loss minimization, we achieved the best accuracy for fashion search. The combination of attribute-specific features and the overall similarity metric allowed the model to understand the nuances of fashion and provide highly relevant search results.
 
 The development of our fashion search technology involved extensive data collection, annotation, active learning, image augmentation, and iterative model development. By addressing the unique challenges posed by street style images and leveraging advanced techniques such as triplet loss and joint training, we were able to create a highly accurate and efficient fashion search system.
+
+## Schematic for E-commerce Integration
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/fash-search-deploy.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 1. Vanishing points from different groups of parallel lines form the vanishing line
+</div>
 
 ## Differentiating Factors
 DeepView.ai's solution stands out from competitors in two key aspects:
