@@ -38,25 +38,20 @@ An easy-to-use UI generates a smart video summary that highlights key activities
 
 ## Key Technology Highlights
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    <video class="img-fluid rounded z-depth-1" controls>
-      <source src="assets/img/youtube4.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    <video class="img-fluid rounded z-depth-1" controls>
-      <source src="assets/img/youtube2.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    <video class="img-fluid rounded z-depth-1" controls>
-      <source src="assets/img/youtube6.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
+<div class="row"> 
+  <div class="col-sm mt-3 mt-md-0"> 
+  {% include figure.liquid loading="eager" path="assets/img/youtube4.mp4" title="Activity recognition" class="img-fluid rounded z-depth-1" %} 
+  </div> 
+</div>
+<div class="row"> 
+  <div class="col-sm mt-3 mt-md-0"> 
+  {% include figure.liquid loading="eager" path="assets/img/youtube2.mp4" title="Activity recognition" class="img-fluid rounded z-depth-1" %} 
+  </div> 
+</div>
+<div class="row"> 
+  <div class="col-sm mt-3 mt-md-0"> 
+  {% include figure.liquid loading="eager" path="assets/img/youtube6.mp4" title="Activity recognition" class="img-fluid rounded z-depth-1" %} 
+  </div> 
 </div>
 
 - **Advanced Object Recognition**: We employed special techniques to recognize equipment from a distance, despite their relatively small size in video frames, by developing custom algorithms for small object detection.
