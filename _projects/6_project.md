@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Developing a Custom GPT-2 Model from Scratch: Scaling, Optimization, and Performance Analysis
-description: This project aims to design and implement a custom GPT-2 model from scratch using Python, with a focus on scaling the model to 124 million parameters ..
+title: "Developing a Custom GPT-2 Model from Scratch: Scaling, Optimization, and Performance Analysis"
+description: "This project aims to design and implement a custom GPT-2 model from scratch using Python, with a focus on scaling the model to 124 million parameters."
 img: assets/img/transformer.jpg
 importance: 1
 category: work
