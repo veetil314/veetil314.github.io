@@ -2,7 +2,7 @@
 layout: page
 title: Bridging the Gap Between Image Content and Product Intelligence
 description: DeepView.ai's Fashion Search Technology. DeepView.ai has developed a cutting-edge fashion search technology that addresses the disconnect between image content and product intelligence in the e-commerce industry ..
-img: assets/img/fash-search-1.jpg
+img: assets/img/vsearch.jpg
 importance: 4
 category: work
 ---
