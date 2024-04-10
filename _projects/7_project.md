@@ -2,7 +2,7 @@
 layout: page
 title: "Enhancing Large Language Model Training through Data Quality Assessment and Visualization"
 description: "This project aims to develop a comprehensive framework for assessing and improving the quality of training data used in LLM development by leveraging advanced data visualization techniques and topic modeling approaches."
-img: assets/img/data-visualization.jpg
+img: assets/img/topics.jpg
 importance: 2
 category: work
 ---
