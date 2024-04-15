@@ -30,9 +30,19 @@ An easy-to-use UI generates a smart video summary that highlights key activities
 
 ## Key Technology Highlights
 
-<iframe src="https://player.vimeo.com/video/935174600?h=d022a0ccfe" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://vimeo.com/935174600" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Recognizing dump truck activity. Notice how a second noisy unload action to the right corner is also captured. 
+</div>
 
 
+[//]: # (This is also a comment using a non-standard but widely supported Markdown method)
+[//]: # {% include video.liquid path="https://player.vimeo.com/video/935174600" class="img-fluid" width="100%" min-width="300px" caption="This is a descriptive caption for the video." %}
+[//]: # <iframe src="https://player.vimeo.com/video/935174600?h=d022a0ccfe" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <div class="row"> 
   <div class="col-sm mt-3 mt-md-0"> 
