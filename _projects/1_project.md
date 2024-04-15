@@ -30,18 +30,17 @@ An easy-to-use UI generates a smart video summary that highlights key activities
 
 ## Key Technology Highlights
 
-<iframe src="https://player.vimeo.com/video/935174600" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+<iframe src="https://player.vimeo.com/video/935174600?h=d022a0ccfe" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <div class="caption">
     Recognizing dump truck activity. Notice how a second brief, noisy unload action to the right corner is also captured. 
 </div>
 
-<iframe src="https://player.vimeo.com/video/935182766" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+<iframe src="https://player.vimeo.com/video/935182766?h=a607b70189" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <div class="caption">
     Dump truck activity recognition. You can see tracking of dump trucks through occlusion ( using DNN features + Kalaman filtering ). Notice how similar equipment which aren't dump trucks are correctly not detected, illustrating robustness to low false positives. 
 </div>
 
-<iframe src="https://player.vimeo.com/video/935178416" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
-
+<iframe src="https://player.vimeo.com/video/935178416?h=89afbf5ec2" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 - **Advanced Object Recognition**: We employed special techniques to recognize equipment from a distance, despite their relatively small size in video frames, by developing custom algorithms for small object detection.
 - **Challenging Environment Adaptability**: Our solution is engineered to withstand harsh construction conditions, such as dust, smoke, fog, and various lighting challenges, including low light and glare, ensuring reliable performance under all conditions.
