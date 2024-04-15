@@ -32,17 +32,17 @@ An easy-to-use UI generates a smart video summary that highlights key activities
 
 <div class="row"> 
   <div class="col-sm mt-3 mt-md-0"> 
-  {% include figure.liquid loading="eager" path="assets/img/youtube4.mp4" title="Activity recognition" class="img-fluid rounded z-depth-1" %} 
+        {% include video.liquid path="assets/video/youtube4.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
   </div> 
 </div>
 <div class="row"> 
   <div class="col-sm mt-3 mt-md-0"> 
-  {% include figure.liquid loading="eager" path="assets/img/youtube2.mp4" title="Activity recognition" class="img-fluid rounded z-depth-1" %} 
+        {% include video.liquid path="assets/video/youtube2.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
   </div> 
 </div>
 <div class="row"> 
   <div class="col-sm mt-3 mt-md-0"> 
-  {% include figure.liquid loading="eager" path="assets/img/youtube6.mp4" title="Activity recognition" class="img-fluid rounded z-depth-1" %} 
+        {% include video.liquid path="assets/video/youtube6.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
   </div> 
 </div>
 
