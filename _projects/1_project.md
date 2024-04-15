@@ -30,6 +30,10 @@ An easy-to-use UI generates a smart video summary that highlights key activities
 
 ## Key Technology Highlights
 
+<iframe src="https://player.vimeo.com/video/935174600?h=d022a0ccfe" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
+
 <div class="row"> 
   <div class="col-sm mt-3 mt-md-0"> 
         {% include video.liquid path="assets/video/youtube4.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
@@ -98,7 +102,4 @@ The deployment of our AI monitoring solution at client construction sites signif
 - **Scalable and Versatile Solution:** Demonstrated the adaptability and scalability of our AI technology, highlighting its potential for broader applications within the construction industry and beyond.
 - **Metrics for Productivity:** Enabled the measurement of equipment/labor activity and correlated with progress metrics from other sources such as drone data, facilitating smart estimation and bidding.
 
-This report encapsulates our achievements in this client project, demonstrating our commitment to technological innovation and its tangible benefits in real-world applications. It highlights our role in advancing construction site operations through AI, setting the stage for future projects poised to transform the industry.
-
-
-
+This report encapsulates our achievements in this client project, demonstrating technological innovation to solve the problem of digitizing and monitoring construction site operations. 
