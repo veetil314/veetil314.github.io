@@ -30,37 +30,17 @@ An easy-to-use UI generates a smart video summary that highlights key activities
 
 ## Key Technology Highlights
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://player.vimeo.com/video/935174600" class="img-fluid" width="100%" min-width="300px" caption="This is a descriptive caption for the video." %}
-    </div>
-</div>
+<iframe src="https://player.vimeo.com/video/935174600" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
 <div class="caption">
     Recognizing dump truck activity. Notice how a second brief, noisy unload action to the right corner is also captured. 
 </div>
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-      {% include video.liquid path="https://player.vimeo.com/video/935182766" class="img-fluid" width="100%" min-width="300px" caption="This is a descriptive caption for the video." %}
-
-    </div>
-</div>
+<iframe src="https://player.vimeo.com/video/935182766" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
 <div class="caption">
     Dump truck activity recognition. You can see tracking of dump trucks through occlusion ( using DNN features + Kalaman filtering ). Notice how similar equipment which aren't dump trucks are correctly not detected, illustrating robustness to low false positives. 
 </div>
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://player.vimeo.com/video/935178416" class="img-fluid" width="100%" min-width="300px" caption="This is a descriptive caption for the video." %}
-
-    </div>
-</div>
-
-
-[//]: # (This is also a comment using a non-standard but widely supported Markdown method)
-[//]: # {% include video.liquid path="https://player.vimeo.com/video/935174600" class="img-fluid" width="100%" min-width="300px" caption="This is a descriptive caption for the video." %}
-[//]: # <iframe src="https://player.vimeo.com/video/935174600?h=d022a0ccfe" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
+<iframe src="https://player.vimeo.com/video/935178416" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
 
 
 - **Advanced Object Recognition**: We employed special techniques to recognize equipment from a distance, despite their relatively small size in video frames, by developing custom algorithms for small object detection.
