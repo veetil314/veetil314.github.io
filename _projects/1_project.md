@@ -39,26 +39,18 @@ An easy-to-use UI generates a smart video summary that highlights key activities
     Recognizing dump truck activity. Notice how a second noisy unload action to the right corner is also captured. 
 </div>
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://vimeo.com/935178416" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 [//]: # (This is also a comment using a non-standard but widely supported Markdown method)
 [//]: # {% include video.liquid path="https://player.vimeo.com/video/935174600" class="img-fluid" width="100%" min-width="300px" caption="This is a descriptive caption for the video." %}
 [//]: # <iframe src="https://player.vimeo.com/video/935174600?h=d022a0ccfe" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-<div class="row"> 
-  <div class="col-sm mt-3 mt-md-0"> 
-        {% include video.liquid path="assets/video/youtube4.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-  </div> 
-</div>
-<div class="row"> 
-  <div class="col-sm mt-3 mt-md-0"> 
-        {% include video.liquid path="assets/video/youtube2.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-  </div> 
-</div>
-<div class="row"> 
-  <div class="col-sm mt-3 mt-md-0"> 
-        {% include video.liquid path="assets/video/youtube6.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-  </div> 
-</div>
+
 
 - **Advanced Object Recognition**: We employed special techniques to recognize equipment from a distance, despite their relatively small size in video frames, by developing custom algorithms for small object detection.
 - **Challenging Environment Adaptability**: Our solution is engineered to withstand harsh construction conditions, such as dust, smoke, fog, and various lighting challenges, including low light and glare, ensuring reliable performance under all conditions.
