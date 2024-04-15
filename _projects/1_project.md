@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Heavy Equipment Monitoring with AI for Top 5 Construction Firm in Asia Pacific 
-description: Reflective AI technology to measure heavy equipment activity in civil construction projects from HD video feeds for client.
+description: Reflective AI technology to measure heavy equipment activity in civil construction projects from video feeds for client.
 img: assets/img/earthwork.jpg
 importance: 4
 category: work
@@ -9,24 +9,16 @@ giscus_comments: false
 ---
 
 <h2>Project Overview</h2>
-<p>In a significant leap towards enhancing efficiency in civil construction projects, our team at Reflective AI embarked on a mission to revolutionize how heavy equipment, specifically dump trucks, is monitored and managed. Collaborating with one of the largest construction firms in the Asia Pacific region, we aimed to leverage advanced AI-driven video recognition technology. This technology provides real-time, actionable insights into heavy equipment and manpower, beginning with dump truck operations, thereby addressing critical operational bottlenecks and enhancing overall project efficiency.
+<p>With the goal of significantly enhancing efficiency in civil construction projects, our team at Reflective AI embarked on a mission to change the way heavy equipment is monitored and managed. Collaborating with one of the largest construction firms in the Asia Pacific region, we leveraged advanced AI-driven video recognition technology to accomplish this. The technology provides real-time, actionable insights into heavy equipment, beginning with dump truck operations, thereby addressing critical operational bottlenecks and enhancing overall project efficiency.
 </p>
 
 <h2>Problem</h2>
 <p>
-The initial digitization focus was on earthwork operations, with plans to expand to other areas, including building construction and manual operations. Earthwork is a substantial cost factor in large infrastructure projects, involving numerous trucks transporting materials, excavators performing cut and fill operations and more. Understanding and digitizing these operations was essential but challenging with traditional technologies including IoT sensors, due to the high turnover of independent equipment operators leading to challenges in deep IoT integration. A camera-based solution emerged as an effective method to bypass these challenges, helping to eliminate bottlenecks, delays, and simplify integration.
+The initial digitization focus was on earthwork operations, with plans to expand to other areas, including building construction and manual operations. Earthwork is a substantial cost factor in large infrastructure projects, involving numerous trucks transporting materials, excavators performing cut and fill operations and more. Understanding and digitizing these operations was essential but challenging with traditional technologies including IoT sensors, due to the high turnover of independent equipment operators, leading to challenges in deep IoT integration. A camera-based solution emerged as an effective method to bypass these challenges, helping to eliminate bottlenecks, delays, and simplify integration.
 </p>
 
 <h2>Solution</h2>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hotspot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Heatmap of Worker Activity on Construction Site
-</div>
 
 <p>
 We developed technology to intelligently recognize the fine-grained activity of heavy equipment, such as whether it's loaded/unloaded, counting the number of dumps, and distinguishing between moving and idle states. This approach offers a detailed overview of material movement, utilization, and productivity without requiring complex infrastructure. A few cameras covering the work area, necessary for security and monitoring, are used.
@@ -58,7 +50,7 @@ An easy-to-use UI generates a smart video summary that highlights key activities
 - **Challenging Environment Adaptability**: Our solution is engineered to withstand harsh construction conditions, such as dust, smoke, fog, and various lighting challenges, including low light and glare, ensuring reliable performance under all conditions.
 - **Complex Activity Recognition**: Advanced algorithms differentiate between fine-grained heavy equipment operations, such as an excavator performing excavation vs moving to/from the worksite, and dump truck operations like loading, unloading, and idling.
 - **Integration and Scalability**: Designed for seamless compatibility with existing camera infrastructure on construction sites, our solution eliminates the need for additional hardware installations and is easily scalable across multiple projects.
-- **AI-Driven Enhancements**: We leveraged synthetic data and data augmentation techniques, including Generative Adversarial Learning and curriculum learning, to simulate construction environments and enhance system accuracy and reliability.
+- **AI-Driven Enhancements**: We leveraged synthetic data and data augmentation techniques, including Generative Adversarial Learning, to simulate construction environments and enhance system accuracy and reliability.
 
 
 ## Model Development and Testing

@@ -31,10 +31,10 @@ We will begin by conducting a comprehensive literature review to identify the cu
 ### Phase 2: Data Visualization Framework Development
 In this phase, we will develop robust data visualization frameworks that enables engineers to quickly and effectively assess the characteristics and quality of their training datasets. We will investigate the application of topic modeling techniques, using LLM embeddings, to identify underlying themes and subjects within training data. By leveraging the power of LLMs, we aim to develop more refined and accurate topic modeling approaches that can effectively sift through vast datasets and provide valuable insights into the content and structure of the data.
 
-### Phase 4: Preference Data Visualization
+### Phase 3: Preference Data Visualization
 In this phase, we will focus specifically on the role of preference data in LLM training and develop visualization techniques tailored to highlight the nuances of style, tone, and appropriateness in aligned LLM responses. We will explore methods for measuring the quality of preference training data and develop tools for visualizing and analyzing this data to ensure optimal LLM performance.
 
-### Phase 5: Integration and User Interface Development
+### Phase 4: Integration and User Interface Development
 Finally, we will integrate the developed data visualization and analysis tools into a user-friendly interface that allows engineers to easily explore and interpret their training data. The interface will provide a seamless and intuitive user experience, enabling users to quickly identify potential issues or biases in their data and make informed decisions about data curation and model optimization.
 
 ## Expected Outcomes
