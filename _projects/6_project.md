@@ -57,7 +57,7 @@ Due to the high cost of GPU resources on popular cloud platforms like Google Clo
 By undertaking this project, we aim to deepen our understanding of LLM architectures and its scaling properties, while also contributing to the broader field of language model development. The insights gained from this project will inform future research directions and help in the development of more advanced and efficient language models.
 
 
-References:
+## References
 https://github.com/huggingface/transformers/tree/main/src/transformers/models/gpt2
 https://github.com/karpathy/nanoGPT
 
